@@ -11,14 +11,14 @@
             "id": "1d1fd8cce9681905",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/app.json",
-                "bFile": ".obsidian/app.json",
-                "aRef": ""
+                "file": "2 - Source Material/2 - Projects/3 - Codehub/3 - Monetización.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: app.json"
+              "icon": "lucide-file",
+              "title": "3 - Monetización"
             }
           }
         ]
@@ -181,6 +181,10 @@
   },
   "active": "1d1fd8cce9681905",
   "lastOpenFiles": [
+    "2 - Source Material/2 - Projects/3 - Codehub/2 - Modelo de negocio.md",
+    "2 - Source Material/2 - Projects/3 - Codehub/3 - Monetización.md",
+    "2 - Source Material/2 - Projects/3 - Codehub/1 - Arquitectura.md",
+    "home.md",
     "common_md/Welcome.md",
     "common_md/Untitled.canvas",
     "common_md/2025-05-07.md",
@@ -215,9 +219,6 @@
     "common_md/2 - Source Material/2 - Projects/3 - Codehub/4 - Tokenomics.md",
     "common_md/2 - Source Material/2 - Projects/3 - Codehub/3 - Monetización.md",
     "common_md/2 - Source Material/2 - Projects/3 - Codehub/2 - Modelo de negocio.md",
-    "common_md/2 - Source Material/2 - Projects/3 - Codehub/1 - Arquitectura.md",
-    "common_md/2 - Source Material/2 - Projects/2 - DevTimebank/5 - Whitepaper.md",
-    "common_md/2 - Source Material/2 - Projects/2 - DevTimebank/4 - Tokenomics.md",
-    "common_md/2 - Source Material/2 - Projects/2 - DevTimebank/3 - Monetización.md"
+    "common_md/2 - Source Material/2 - Projects/3 - Codehub/1 - Arquitectura.md"
   ]
 }
