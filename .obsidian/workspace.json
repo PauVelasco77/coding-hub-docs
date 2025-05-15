@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "d379773884945132",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f98b7e716d13535",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d1fd8cce9681905",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "144df05f3d5b4fab",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1546efaea170f67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e1d5d1ce5e30123",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ec9c5a682eb08972",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f734f12f83398c0c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d339e2e1527c2479",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ea9f06fe83e3e5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85560417c29f3879",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9cfa3e86da64ea3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ec6d672ab3c8e2c2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "99db7d73fb43678b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "common_md/main/Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          },
+          {
+            "id": "c25edf64af9a82af",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 512.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "1d1fd8cce9681905",
+  "lastOpenFiles": [
+    "common_md/Welcome.md",
+    "common_md/Untitled.canvas",
+    "common_md/2025-05-07.md",
+    "common_md/Tutellus/GT3/2 - Architecture/2 - States.md",
+    "common_md/Tutellus/GT3/2 - Architecture/1 - Routes.md",
+    "common_md/Tutellus/GT3/1 - Models/6 - Pool.md",
+    "common_md/Tutellus/GT3/1 - Models/5 - User.md",
+    "common_md/Tutellus/GT3/1 - Models/4 - Token.md",
+    "common_md/Tutellus/GT3/1 - Models/3 - Kernel.md",
+    "common_md/Tutellus/GT3/1 - Models/2 - Project.md",
+    "common_md/Tutellus/GT3/1 - Models/1 - Ethereum.md",
+    "common_md/Tutellus/Máster Tokenización/2 - Tokenomics.md",
+    "common_md/Tutellus/Máster Tokenización/1 - Tipos de Tokens.md",
+    "common_md/Tutellus/GT3/3 - Images.md",
+    "common_md/Tutellus/GT3/2 - Architecture",
+    "common_md/Tutellus/GT3/1 - Models",
+    "common_md/Tutellus/Tutellus.md",
+    "common_md/Tutellus/Máster Tokenización",
+    "common_md/Tutellus/GT3",
+    "common_md/Tutellus",
+    "common_md/Images/Captura de pantalla 2025-05-06 a las 18.34.27.png",
+    "common_md/Images/Captura de pantalla 2025-05-06 a las 18.10.15.png",
+    "common_md/Images",
+    "common_md/Home/2 - Scalextric/1 - Wanted Cars.md",
+    "common_md/Home/1 - Food/1 - Food Ideas.md",
+    "common_md/Home/2 - Scalextric",
+    "common_md/Home/1 - Food",
+    "common_md/Home",
+    "common_md/3 - Tags",
+    "common_md/2 - Source Material/2 - Projects/3 - Storybook Tests/1 - Unit testing.md",
+    "common_md/2 - Source Material/2 - Projects/3 - Codehub/5 - Whitepaper.md",
+    "common_md/2 - Source Material/2 - Projects/3 - Codehub/4 - Tokenomics.md",
+    "common_md/2 - Source Material/2 - Projects/3 - Codehub/3 - Monetización.md",
+    "common_md/2 - Source Material/2 - Projects/3 - Codehub/2 - Modelo de negocio.md",
+    "common_md/2 - Source Material/2 - Projects/3 - Codehub/1 - Arquitectura.md",
+    "common_md/2 - Source Material/2 - Projects/2 - DevTimebank/5 - Whitepaper.md",
+    "common_md/2 - Source Material/2 - Projects/2 - DevTimebank/4 - Tokenomics.md",
+    "common_md/2 - Source Material/2 - Projects/2 - DevTimebank/3 - Monetización.md",
+    "common_md/2 - Source Material/2 - Projects/2 - DevTimebank/2 - Modelo de Negocio.md"
+  ]
+}

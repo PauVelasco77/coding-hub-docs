@@ -1,0 +1,6 @@
+- https://unsplash.com/es
+- random images: https://picsum.photos/
+- https://www.pexels.com/api/
+- https://www.pexels.com/
+- background removal https://objectcut.com/
+- https://www.photoroom.com/api

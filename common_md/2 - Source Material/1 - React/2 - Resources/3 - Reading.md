@@ -1,0 +1,3 @@
+- https://www.30secondsofcode.org/js/p/1/
+- https://web.dev/?hl=es-419
+- DE TODO : https://github.com/sindresorhus/awesome?tab=readme-ov-file#front-end-development
