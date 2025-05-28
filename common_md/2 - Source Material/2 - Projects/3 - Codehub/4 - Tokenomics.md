@@ -16,21 +16,21 @@ Token utility usado para:
 
 ## 📊 Tokenomics Propuesta
 
-| **Concepto**                  | **Cantidad**     | **% del total** | **Notas**                                   |
-| ----------------------------- | ---------------- | --------------- | ------------------------------------------- |
-| **Total Supply**              | `1,000,000 CODE` | `100%`          | Fijo inicialmente, modificable sólo vía DAO |
-| Liquidity Mining / Incentivos | `300,000`        | `30%`           | Para usuarios activos y creadores           |
-| DAO Treasury                  | `250,000`        | `25%`           | Fondo controlado por la DAO con `Timelock`  |
-| Team & Founder                | `200,000`        | `20%`           | Vesting on-chain para alinear incentivos    |
-| Airdrop / Marketing           | `100,000`        | `10%`           | Promoción bajo aprobación DAO               |
-| Liquidity Pool (DEX)          | `100,000`        | `10%`           | Emparejados con USDC o ETH en DEX           |
-| Reservado (opcional)          | `50,000`         | `5%`            | Emergencias o alianzas aprobadas por la DAO |
+|**Concepto**|**Cantidad**|**% del total**|**Notas**|
+|---|---|---|---|
+|**Total Supply**|`1,000,000 CODE`|`100%`|Fijo inicialmente, modificable sólo vía DAO|
+|Liquidity Mining / Incentivos|`300,000 CODE`|`30%`|Para usuarios activos y creadores|
+|DAO Treasury|`250,000 CODE`|`25%`|Fondo controlado por la DAO con `Timelock`|
+|Team & Founder|`200,000 CODE`|`20%`|Vesting on-chain para alinear incentivos|
+|Airdrop / Marketing|`100,000 CODE`|`10%`|Promoción bajo aprobación DAO|
+|Liquidity Pool (DEX)|`100,000 CODE`|`10%`|Emparejados con USDC o ETH en DEX|
+|Reservado (opcional)|`50,000 CODE`|`5%`|Emergencias o alianzas aprobadas por la DAO|
 
 ---
 
 ## ⛓️ Política de emisión
 
-- Supply inicial fijo de 1M CODE.
+- Supply inicial fijo de 1,000,000 CODE.
     
 - Toda emisión futura o modificación de supply debe ser aprobada por la DAO mediante `Governor`.
     
@@ -44,7 +44,7 @@ Token utility usado para:
     
 - Precio sugerido inicial: 1 CODE = 1 USDC.
     
-- Aportación inicial con 100,000 CODE + 100,000 USDC gestionada desde el treasury DAO.
+- Aportación inicial: 100,000 CODE + 100,000 USDC desde el treasury DAO.
 
 ---
 
@@ -52,7 +52,7 @@ Token utility usado para:
 
 |   |   |
 |---|---|
-|Período|Tokens disponibles|
+|**Período**|**Tokens disponibles**|
 |Mes 0|0% (cliff)|
 |Mes 6|25% desbloqueados|
 |Mes 12|50% desbloqueados|
@@ -60,7 +60,7 @@ Token utility usado para:
 
 - Vesting implementado en contratos `VestingWallet`.
     
-- Fondos en multisig DAO hasta completarse el calendario.
+- Fondos custodios en multisig DAO hasta completarse el calendario.
 
 ---
 
@@ -70,11 +70,11 @@ Token utility usado para:
 
 - Tokens por crear contenido, resolver retos, moderar, etc.
     
-- Posibilidad de staking para aumentar visibilidad y reputación on-chain.
+- Staking para aumentar visibilidad y reputación on-chain con ventajas (más peso de voto, acceso a features exclusivas).
 
 ### Para usuarios y lectores
 
-- Recompensas por interacción y participación activa.
+- Recompensas por interacción y participación activa (comentarios, likes).
     
 - Descuentos y beneficios al usar CODE para pagar servicios premium.
 
@@ -83,28 +83,41 @@ Token utility usado para:
 ## 🗳️ Gobernanza DAO
 
 - Basado en `ERC20Votes` y `Governor + TimelockController`.
+    
 
-**Parámetros propuestos:**
+|   |   |
+|---|---|
+|**Parámetro**|**Valor**|
+|Quorum|4% del supply (40,000 CODE)|
+|Propuesta mínima|10,000 CODE|
+|Delay de propuesta|1 día|
+|Período de votación|3 días|
+|Delay de ejecución|1 día tras aprobación|
 
-- Quorum: 4% del supply (40,000 CODE).
-    
-- Propuesta mínima: 10,000 CODE.
-    
-- Delay de propuesta: 1 día.
-    
-- Período de votación: 3 días.
-    
-- Delay de ejecución: 1 día tras aprobación.
+**Decisiones gestionadas:** emisión de nuevos tokens, distribución especial, financiamiento de features y grants, ajustes económicos, alianzas.
 
-**Decisiones gestionadas por la DAO:**
+---
 
-- Emisión de nuevos tokens o distribución especial.
+## Propuesta de implementación (Tokenomics)
+
+Para alinear las recompensas con el valor real generado por cada publicación y garantizar la sostenibilidad de la economía de tokens CODE, se propone el siguiente esquema:
+
+1. **Recompensa base fija tras validación**  
+    Cada post validado otorga un mínimo garantizado de **10 CODE**.
     
-- Financiamiento de features y grants.
+2. **Componente variable por visitas**
     
-- Ajustes económicos (comisiones, precios).
+    - Se añaden **2 CODE × log₂(visitas + 1)** al cálculo.
+        
+    - Visitas filtradas contra bots y validadas off-chain.
+        
+    - Máximo adicional por post: **90 CODE**.
+        
+3. **Tope máximo de recompensa**  
+    La recompensa total por publicación no podrá exceder los **100 CODE**.
     
-- Alianzas estratégicas, integraciones.
+4. **Comisión de reclamación**  
+    Al reclamar tokens, se aplica una tasa del **2 %** que se destina al **treasury de la DAO** para financiar mejoras, grants y liquidez.
 
 ---
 

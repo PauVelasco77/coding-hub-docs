@@ -16,3 +16,6 @@
 <img src="https://boxerslot.com/15207-thickbox_default/scaleauto-sc-6209r-peugeot-208-wrx-barcelona-2016-n21-hansen-r-chasis-.jpg" height="200" width="300" style="border:1px solid blue; border-radius: 8px; object-fit:cover;"/>
 - https://boxerslot.com/coches-slot/5872-scaleauto-sc-6209r-peugeot-208-wrx-barcelona-2016-n21-hansen-r-chasis-.html
 
+#### Ford GT40 - 3º 24h LeMans 1969 - Slot.it
+<img src="https://gruposlotmania.net/18898-thickbox_default/ford-gt-40-n-7-3rd-le-24h-mans-1969.jpg" height="200" width="300" style="border:1px solid blue; border-radius: 8px; object-fit:cover;"/>
+- https://gruposlotmania.net/es/coches/10114-ford-gt-40-n-7-3rd-le-24h-mans-1969.html?gad_source=1&gad_campaignid=8704573624

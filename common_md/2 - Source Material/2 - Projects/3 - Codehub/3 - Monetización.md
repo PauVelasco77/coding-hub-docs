@@ -1,106 +1,118 @@
 ## 💸 **Modelos de Monetización para CodeHub (DAO Driven)**
 
-### 1. **Comisión por recompensas o intercambios de tokens**
+### 1. **Comisión por reclamo o intercambio de tokens**
 
-> 🧾 La DAO define una comisión cada vez que los usuarios reciben o canjean `CodeToken` por recompensas dentro de CodeHub.
+> 🧾 La DAO aplica una **comisión del 2 %** cada vez que los usuarios reclaman o intercambian `CodeToken` por recompensas.
 
-- Ejemplo: Al reclamar 100 `CodeTokens`, el usuario recibe 97; 3 se dirigen al treasury de la DAO.
-    
-- La comunidad vota cómo utilizar estos fondos: quema, subvenciones, recompensas adicionales, desarrollo.
+|**Ejemplo**|**Detalle**|
+|---|---|
+|Recompensa solicitada|100 `CodeToken`|
+|Comisión (2 %)|2 `CodeToken`|
+|Neto recibido|98 `CodeToken`|
+|Destino de la comisión|Treasury de la DAO (para grants, desarrollo, quema, etc.)|
 
 ✅ Escalable y alineado con el uso real.  
-⚠️ Requiere gobernanza activa para reciclar los tokens efectivamente.
+⚠️ Requiere gobernanza activa para reciclar los fondos.
 
 ---
 
 ### 2. **Venta directa de tokens para acceso premium**
 
-> 💱 La DAO puede habilitar ventas limitadas de `CodeToken` a usuarios que desean acceder a funciones exclusivas.
+> 💱 La DAO habilita emisiones limitadas de `CodeToken` a usuarios que desean funciones exclusivas.
 
-- Ejemplo: 1 `CodeToken` = 5 USDC, definido por votación comunitaria.
-    
-- Se utiliza una whitelist o smart contract de venta controlado por la DAO.
+|   |   |
+|---|---|
+|**Parámetro**|**Valor**|
+|Precio unitario|5 USDC = 1 `CodeToken` (votado por la comunidad)|
+|Mecanismo|Smart contract de venta con whitelist controlada por la DAO|
 
-✅ Monetización directa flexible.  
-⚠️ La DAO debe considerar implicaciones legales y transparencia.
+✅ Monetización directa y flexible.  
+⚠️ Implica consideraciones legales y de transparencia.
 
 ---
 
 ### 3. **Suscripciones premium**
 
-> 🔓 El acceso premium puede combinarse con uso de tokens o pagos tradicionales, con condiciones aprobadas por la DAO.
+> 🔓 Acceso anticipado y analytics avanzadas mediante suscripción.
 
-- Acceso a contenido anticipado, analíticas, visibilidad mejorada.
-    
-- Los parámetros de la suscripción (precio, duración) son votados por la comunidad.
+|   |   |
+|---|---|
+|**Característica**|**Detalle**|
+|Duración|Mensual / Trimestral / Anual|
+|Pago|`CodeToken` o métodos tradicionales (fiat)|
+|Beneficios|Contenido exclusivo, reportes de métricas, visibilidad mejorada|
 
-✅ Fuente alternativa de ingresos.  
-⚠️ La DAO debe garantizar valor tangible para justificar el costo.
+✅ Fuente de ingresos recurrente.  
+⚠️ Debe garantizar valor tangible para justificar el costo.
 
 ---
 
 ### 4. **DAO Treasury y participación activa**
 
-> 💼 Un porcentaje del supply inicial se reserva como treasury de la DAO para decisiones estratégicas.
+> 💼 Reserva inicial y gestión por gobernanza de la DAO.
 
-- Ejemplo: 250,000 CODE bajo control de `TimelockController`.
-    
-- La comunidad propone y vota cómo distribuir fondos para:
-    
-    - Recompensar contribuciones destacadas
-        
-    - Financiar desarrollos
-        
-    - Patrocinar eventos
+|   |   |
+|---|---|
+|**Reserva**|**Cantidad**|
+|Treasury DAO|250,000 `CodeToken`|
 
+Los fondos del treasury se destinan a: grants, financiación de desarrollos, patrocinios de eventos, recompensas especiales.
 
 ✅ Gobernanza transparente.  
-⚠️ Requiere herramientas de votación intuitivas para alta participación.
+⚠️ Requiere interfaces de votación accesibles.
 
 ---
 
 ### 5. **Publicidad y espacios patrocinados**
 
-> 🪧 Propuestas de publicidad son aprobadas por la DAO.
+> 🪧 Empresas y proyectos pueden ofertar por espacios destacados.
 
-- Empresas pueden ofertar por espacios destacados.
-    
-- Las condiciones (precios, duración) se gestionan mediante gobernanza comunitaria.
+|   |   |
+|---|---|
+|**Opción**|**Detalle**|
+|Formato|Banners en feed, publicaciones patrocinadas|
+|Precio|Determinado por votación de la DAO|
 
-✅ Ingreso adicional sin alterar el producto.  
-⚠️ Necesita moderación para evitar spam o contenido irrelevante.
+✅ Ingreso adicional sin alterar la UX principal.  
+⚠️ Necesita moderación para evitar spam.
 
 ---
 
 ### 6. **Grants y recompensas por propuesta DAO**
 
-> 💡 Cualquier usuario puede proponer recibir una cantidad del treasury a cambio de contribuir con herramientas, artículos, plugins o formación.
+> 💡 Usuarios proponen recibir fondos del treasury a cambio de contribuciones específicas.
 
-- La DAO revisa, vota y aprueba (o no) la propuesta.
+|   |   |
+|---|---|
+|**Tipo de contribución**|**Uso de fondos**|
+|Artículos técnicos / Plugins|Desarrollo y mantenimiento|
+|Eventos / Workshops|Organización y promoción|
+|Herramientas / Integraciones|Integración con terceros|
 
-✅ Descentralización real de la evolución del producto.
+✅ Fomenta la descentralización real de la evolución del producto.
 
 ---
 
 ## 🧠 Resumen comparativo
 
-|Estrategia|¿Escalable?|¿DAO lo gestiona?|¿Riesgo legal?|
+|   |   |   |   |
 |---|---|---|---|
-|Comisión por recompensas|✅ Alta|✅ Sí|Bajo|
-|Venta directa de tokens|✅ Alta|✅ Sí|Medio|
-|Suscripción premium|✅ Media|✅ Sí|Muy bajo|
-|DAO Treasury|✅ Alta|✅ Sí|Bajo|
-|Publicidad/patrocinios|❌ Media|✅ Sí|Nulo|
-|Grants comunitarios|✅ Alta|✅ Sí|Muy bajo|
+|Estrategia|Escalable|Gestión DAO|Riesgo legal|
+|Comisión por reclamo|Alta ✅|Sí ✅|Bajo|
+|Venta directa de tokens|Alta ✅|Sí ✅|Medio|
+|Suscripción premium|Media ⚠️|Sí ✅|Muy bajo|
+|DAO Treasury|Alta ✅|Sí ✅|Bajo|
+|Publicidad patrocinada|Media ⚠️|Sí ✅|Nulo|
+|Grants comunitarios|Alta ✅|Sí ✅|Muy bajo|
 
 ---
 
 ## 🚀 MVP recomendado para CodeHub
 
-- Implementar comisiones mínimas (1–3%) en interacciones clave.
+1. Implementar **comisión del 2 %** en el reclamo de recompensas.
     
-- Reservar 25% del supply de `CodeToken` para el treasury de la DAO.
+2. Reservar **25 %** del supply para el `DAO Treasury`.
     
-- Lanzar propuesta inicial DAO para definir prioridades del uso del treasury.
+3. Lanzar propuesta DAO inicial para decidir uso del treasury.
     
-- Habilitar una primera ronda de grants abiertos para creadores y desarrolladores.
+4. Abrir primera ronda de **grants** para creadores y desarrolladores.
